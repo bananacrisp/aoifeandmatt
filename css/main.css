@@ -107,24 +107,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-body {
-}
-
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  resize: both;
-  overflow: auto;
-}
-
-main .text-box {
-width: 50%;
-  padding: 20px;
-  resize: both;
-  overflow: auto;
-  text-align: center;
-}
 
 
 
