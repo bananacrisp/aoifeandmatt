@@ -8,7 +8,8 @@ p {
 }
 
 header h2,
-header h1 {
+header h1,
+header p {
 	font-family: 'Amatic SC', cursive;
 }
 
@@ -19,6 +20,18 @@ header {
 	-o-background-size: cover;
 	background-size: cover;
 	padding-bottom: 40vh;
+}
+
+header p {
+	text-align: center;
+}
+
+.card h3 {
+	font-family: 'Amatic SC', cursive;
+}
+
+.card {
+	font-family: 'Playfair Display', serif;
 }
 
 .title-names {
