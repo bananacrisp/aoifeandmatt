@@ -13,7 +13,7 @@ header h1 {
 }
 
 header {
-	background: url("../img/bg_header.jpg") no-repeat center center fixed;
+	background: url("../img/bg_header.jpg") no-repeat top center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
