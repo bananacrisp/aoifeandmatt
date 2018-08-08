@@ -13,11 +13,12 @@ header h1 {
 }
 
 header {
-	background: url("../img/bg_header.jpg") no-repeat top center fixed;
+	background: url("../img/bg_header.jpg") no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	padding-bottom: 40vh;
 }
 
 .title-names {
