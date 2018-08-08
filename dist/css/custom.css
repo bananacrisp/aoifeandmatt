@@ -1,0 +1,25 @@
+h1, h2, h3, h4, h5, h6 {
+/*	font-family: 'Dancing Script', cursive;*/
+	font-family: 'Amatic SC', cursive;
+}
+
+p {
+	font-family: 'Playfair Display', serif;
+}
+
+header h2,
+header h1 {
+	font-family: 'Amatic SC', cursive;
+}
+
+header {
+	background: url("../img/bg_header.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.title-names {
+	font-family: 'Dancing Script', cursive;
+}
