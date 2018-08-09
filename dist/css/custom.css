@@ -37,3 +37,34 @@ header p {
 .title-names {
 	font-family: 'Dancing Script', cursive;
 }
+
+/* panels */
+
+.panel-head {
+	margin-bottom: 0;
+}
+
+.panel-head p {
+	font-family: 'Amatic SC', cursive;
+}
+
+.panel-body {
+	padding: 20px 15px;
+}
+
+/* Tags */
+.tag {
+	font-family: 'Amatic SC', cursive;
+}
+
+.tags .tag-blue {
+	background-color: #669dca;
+}
+
+.tags .tag-orange {
+	background-color: #de9f49;
+}
+
+.tags .tag-green {
+	background-color: #6a9e68;
+}
