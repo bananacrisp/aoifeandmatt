@@ -34,24 +34,34 @@
 
     <!-- Header -->
     <header>
-       <h2 class="title-names">Aoife & Matt</h2>
-       <h2 class="subtitle">1st June 2019, Monticchiello, Italy</h2>
-       <h1 class="title">We are getting married...</h1>
-       <h2 class="subtitle">...and it would be amazing if you were able to join us</h2>
-       <h2 class="subtitle">You can explore the <a href="#section-venue">venue here</a>, a few options on <a href="#section-accomodation">accomodation here</a>, and the <a href="#section-travel">options for travelling here</a>.</h2>
+        <h2 class="title-names">Aoife & Matt</h2>
+        <h2 class="subtitle">1st June 2019, Monticchiello, Italy</h2>
+        <h1 class="title">We are getting married...</h1>
+        <h2 class="subtitle">...and it would be amazing if you were able to join us</h2>
+        <h2 class="subtitle">You can find out more about the <a class="scroll-click" href="#section-venue">venue and wedding day here</a>,</br>take a look at our guide for local <a href="#section-accomodation">accomodation here</a>,</br> and we have pulled together a few options for <a class="scroll-click" href="#section-travel">travelling here</a>.</h2>
 
       <a class="scroll-down" href="#section-venue"></a>
     </header>
 
     <!-- Main Content -->
     <main>
-        <section class="section-tertiary" id="section-venue">
+        <section class="section-tertitary">
             <div class="container container-small">
                 <h1 class="h3">The Venue</h1>
-                <p>We were lucky enough to happen upon the gorgeous old Farmhouse of <a>Terri di Nano</a>. Situated in the middle of the rolling hills and vineyards of Tuscany you would almost think you were in County Mayo or Carmarthenshire (minus the rain!).</p>
-                <img src="dist/img/terre_di_nano.jpg">
+                <p>We were lucky enough to happen upon the gorgeous old Farmhouse of <a href="https://www.terredinano.com/" target="_blank">Terri di Nano</a>. Situated in the middle of the rolling hills and vineyards of Tuscany you would almost think you were in Ballina or Llandeilo...plus a bit of sunshine!</p>
+                <div class="row">
+                    <div class="col col-sm-1 col-md-4">
+                        <img src="dist/img/terre_di_nano_front.jpg">
+                    </div>
+                    <div class="col col-sm-1 col-md-4">
+                        <img src="dist/img/terre_di_nano_sideafar.jpg">
+                    </div>
+                    <div class="col col-sm-1 col-md-4">
+                        <img src="dist/img/terre_di_nano_view.jpg">
+                    </div>
+                </div>
             </div>
-            <div class="container container-small">
+            <div class="container container-small" id="section-accomodation">
 
                 <h1 class="h3">Accomodation</h1>
                 <p>Fortunately the venue is close to three very cute typical Tuscan towns. Each town has a different charm. The wedding cermony will be in <a href="">Monticchiello</a>, you will find the most accomodation options in <a href="">Montepulciano</a>, and if you want to stay in a UNESCO town then pick <a href="">Pienza</a>.</p>
@@ -127,10 +137,51 @@
         </section>
 
 
-        <section class="section-tertiary" id="section-venue">
-            <div class="container container-small">
+        <section class="section-tertiary" id="section-travel">
+            <div class="container container-small" id="section-venue">
                 <h1 class="h3">Travel Options</h1>
-                <p>We were lucky enough to happen upon the gorgeous old Farmhouse of <a>Terri di Nano</a>. Situated in the middle of the rolling hills and vineyards of Tuscany you would almost think you were in County Mayo or Carmarthenshire (minus the rain!).</p>
+                <p>Tuscany is set up pretty well for visitors so you just need to get yourself a flight and a hire car. It is best to fly into Pisa or one of the two Rome airports, leaving you a scenic 150 min drive to the venue area.</p>
+            </div>
+            <div class="container">
+<div class="row">
+    <div class="col col-md-4">
+      <div class="card">
+        <h3>From Ireland</h3>
+        <p>Unfortunately you cannot yet fly direct from Knock to Tuscany. We have asked Michael O'Leary to put on a special flight but he is yet to reply.</p>
+        <p>Thankfully there are plenty of flights from Dublin to either Pisa or Rome.</p>
+        <ul>
+            <li>Dublin to Pisa: Aer Lingus</li>
+            <li>Dublin to Rome CIA: Ryanair</li>
+            <li>Dublin to Rome FCO: Aer Lingus</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col col-md-4">
+      <div class="card">
+        <h3>From Wales</h3>
+        <p>With Cardiff Airport not quite yet in ship shape Bristol is your best bet. Cardiff may have a few mid-week flights available, and Birmingham is also an option.</p>
+        <ul>
+            <li>Bristol to Pisa: TBC</li>
+            <li>Bristol to Rome FCO: Easyjet</li>
+            <li>Birmingham to Rome FCO: Jet2</li>
+            <li>Cardiff to Italy: TBC</li>
+        </ul>
+      </div>
+    </div>
+    <div class="col col-md-4">
+      <div class="card">
+        <h3>From England</h3>
+        <p>Those living in the land of St George have plenty of options, although they are centered around London. Birmingham, Bristol, and Manchester are also decent bets.<i>Note: You can get to Perugia from Stansted but the times are not great.</i></p>
+        <ul>
+            <li>Lnd Stansted to Pisa, Rome CIA, or Perugia: Ryanair</li>
+            <li>Lnd Gatwick to Pisa, Rome FCO: EasyJet, BA, Vuelling</li>
+            <li>Lnd Luton to Rome FCO: EasyJet</li>
+            <li>See Wales for Bristol/Birmingham options</li>
+        </ul>
+      </div>
+    </div>
+</div>
+
             </div>
         </section>
 
@@ -139,36 +190,36 @@
     </main>
 
     <!-- Footer -->
-<!--     <footer>
+    <footer>
         <div class="container">
             <div class="row">
                 <div class="col col-lg-5">
                     <div class="footer-text">
-                        <p class="h3">Footer Example</p>
-                        <p>This is an example of the footer component.  You don't have to use this layout, but it's a good example of what you can do with what's provided.  If you wanted to included more columns for links and remove this text block, you can.</p>
+                        <h2 class="title-names">Aoife & Matt</h2>
+                        <p>If you have any questions just WhatsApp us, ask our Mothers, or emails us at havethecraic@aoifeandmatt.com.</p>
                     </div>
                 </div>
                 <div class="col col-sm-6 col-lg-3 col-lg-offset-1">
-                    <h4 class="footer-links-category">Links Category 1</h4>
+                    <h4 class="footer-links-category">Accomodation</h4>
                     <ul class="footer-links">
-                        <li><a href="#">Link #1</a></li>
-                        <li><a href="#">Link #2</a></li>
-                        <li><a href="#">Link #3</a></li>
+                        <li><a href="#">Monticchiello</a></li>
+                        <li><a href="#">Montepulciano</a></li>
+                        <li><a href="#">Pienza</a></li>
                     </ul>
                 </div>
 
                 <div class="col col-sm-6 col-lg-3">
-                    <h4 class="footer-links-category">Links Category 2</h4>
+                    <h4 class="footer-links-category">Travel</h4>
                     <ul class="footer-links">
-                        <li><a href="#">Link #1</a></li>
-                        <li><a href="#">Link #2</a></li>
-                        <li><a href="#">Link #3</a></li>
+                        <li><a href="#">From Ireland</a></li>
+                        <li><a href="#">From Wales</a></li>
+                        <li><a href="#">From England</a></li>
                     </ul>
                 </div>
             </div>
         </div>
 
-    </footer> -->
+    </footer>
 
 
     <!-- Javascript -->
@@ -178,5 +229,6 @@
 
     })
     </script>
+
 </body>
 </html>

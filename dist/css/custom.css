@@ -53,7 +53,7 @@ header p {
 }
 
 /* Tags */
-.tags .tag {
+.panel .tags .tag {
 	font-family: 'Amatic SC', cursive;
 }
 
@@ -67,4 +67,8 @@ header p {
 
 .tags .tag-green {
 	background-color: #6a9e68;
+}
+
+.col {
+	overflow:hidden
 }
